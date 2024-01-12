@@ -247,6 +247,31 @@ footer{
     nav{
         flex-direction: column;
     }
+
+    footer{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        /* margin-right: 0; */
+        
+    }
+
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-info-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .banner{
+        padding: 0;
+        flex-direction: column;
+    }
 }
 
 
